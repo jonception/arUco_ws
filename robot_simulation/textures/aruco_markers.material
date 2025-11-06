@@ -1,0 +1,76 @@
+// ----------------------------------------------------------------------
+// ARUCO MARKER MATERIAL DEFINITIONS
+// ----------------------------------------------------------------------
+
+material marker_0
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        // Image is expected to be in the same folder as this .material file
+        texture marker_0.png 
+        filtering trilinear
+        max_anisotropy 8
+      }
+    }
+  }
+}
+
+material marker_1
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_1.png
+      }
+    }
+  }
+}
+
+material marker_2
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_2.png
+      }
+    }
+  }
+}
+
+material marker_3
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_3.png
+      }
+    }
+  }
+}
+
+material marker_4
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_4.png
+      }
+    }
+  }
+}

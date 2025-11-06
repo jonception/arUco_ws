@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="aruco_flat_world">
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <model name="aruco_marker_0">
+      <static>true</static>
+      <pose>0 0 0.01 0 0 0</pose>
+      <link name="marker_link">
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <size>0.3 0.3</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://robot_simulation/textures/</uri> 
+              <name>marker_0</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="aruco_marker_1">
+      <static>true</static>
+      <pose>1.0 0.5 0.01 0 0 0</pose>
+      <link name="marker_link">
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <size>0.3 0.3</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://robot_simulation/textures/</uri>
+              <name>marker_1</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="aruco_marker_2">
+      <static>true</static>
+      <pose>-1.0 -1.0 0.01 0 0 0</pose>
+      <link name="marker_link">
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <size>0.3 0.3</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://robot_simulation/textures/</uri>
+              <name>marker_2</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="aruco_marker_3">
+      <static>true</static>
+      <pose>0.5 -1.5 0.01 0 0 0</pose>
+      <link name="marker_link">
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <size>0.3 0.3</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://robot_simulation/textures/</uri>
+              <name>marker_3</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="aruco_marker_4">
+      <static>true</static>
+      <pose>-0.5 1.0 0.01 0 0 0</pose>
+      <link name="marker_link">
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <size>0.3 0.3</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://robot_simulation/textures/</uri>
+              <name>marker_4</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>
